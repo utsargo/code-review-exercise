@@ -1,0 +1,50 @@
+html,
+body {
+  overflow-x: hidden;
+}
+
+#main-wrap {
+  background-color: rgb(92, 62, 119);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0;
+}
+
+#title, #description {
+  color: white;
+  text-align: center;
+}
+
+#form {
+  width: 640px;
+  background-color: rgb(24, 19, 30);
+  padding: 20px;
+}
+#form p {
+  color: white;
+}
+
+#survey-form {
+  width: 100%;
+}
+
+label {
+  color: white;
+}
+
+textarea {
+  width: 100%;
+}
+
+#checkboxes {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 720px) {
+  #form {
+    width: 90%;
+  }
+}/*# sourceMappingURL=style.css.map */
